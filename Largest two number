@@ -1,0 +1,10 @@
+//largest number among two using ternary operator
+#include<stdio.h>
+int main(){
+    int x,y;
+    printf("enter the value of x and y");
+    scanf("%d%d", &x, &y);
+    (x>y)? printf("X is Largest") : printf("Y is Largest");
+    return 0;
+}
+
